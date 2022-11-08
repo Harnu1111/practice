@@ -49,7 +49,7 @@ const App = () => {
         <Navbar />
 
        </div>
-      </div>
+     
       <div>
         <Routes>
           {/* Dashboard */}
@@ -77,6 +77,7 @@ const App = () => {
     <Route path="/pyramid" element={<Pyramid />} />
 
           </Routes>
+      </div>
       </div>
     </div>
     </BrowserRouter>
