@@ -2,7 +2,7 @@ import React from 'react';
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, DateTime, Legend, SplineAreaSeries, } from '@syncfusion/ej2-react-charts';
  
 import{areaCustomSeries, areaPrimaryYAxis, areaPrimaryXAxis} from '../../data/dummy';
-import { useStateContext } from '../../contexts/contextProvider';
+import { useStateContext } from '../../contexts/ContextProvider';
 import { Header } from '../../components'
 
 
