@@ -21,7 +21,7 @@ import product4 from './product4.jpg';
 import product5 from './product5.jpg';
 import product6 from './product6.jpg';
 import product7 from './product7.jpg';
-import product8 from './product8.jpg';
+
 
 export const gridOrderImage = (props) => (
   <div>
@@ -678,7 +678,7 @@ export const weeklyStats = [
     icon: <FiShoppingCart />,
     amount: '-$560',
     title: 'Top Sales',
-    desc: 'Johnathan Doe',
+    desc: 'Itunuoluwa',
     iconBg: '#FB9678',
     pcColor: 'red-600',
   },
@@ -765,22 +765,6 @@ export const medicalproBranding = {
     },
   ],
   leaders: [
-    {
-      image:
-        avatar2,
-    },
-    {
-      image:
-        avatar3,
-    },
-    {
-      image:
-        avatar2,
-    },
-    {
-      image:
-        avatar4,
-    },
     {
       image:
         avatar,
@@ -3066,7 +3050,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Ibadan',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3074,7 +3058,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'England',
+    name: 'Abeokuta',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3082,7 +3066,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'India',
+    name: 'Lagos',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
