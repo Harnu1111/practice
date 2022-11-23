@@ -23,6 +23,7 @@ const Ecommerce = () => {
       <div className="flex flex-wrap lg:flex-nowrap justify-center ">
         <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center">
           <div className="flex justify-between items-center">
+            
             <div>
               <p className="font-bold text-gray-400">Earnings</p>
               <p className="text-2xl">$63,448.78</p>
@@ -102,9 +103,7 @@ const Ecommerce = () => {
                 <p className="text-gray-500 mt-1">Expense</p>
               </div>
 
-              <div className="mt-5">
-                <SparkLine currentColor={currentColor} id="line-sparkLine" type="Line" height="80px" width="250px" data={SparklineAreaData} color={currentColor} />
-              </div>
+             
               <div className="mt-10">
                 <Button
                   color="white"
@@ -114,6 +113,10 @@ const Ecommerce = () => {
                 />
               </div>
             </div>
+            <div className="mt-5">
+                <SparkLine currentColor={currentColor} id="line-sparkLine" type="Line" height="80px" width="250px" data={SparklineAreaData} color={currentColor} />
+                 
+              </div>
             <div>
               <Stacked currentMode={currentMode} width="320px" height="360px" />
             </div>
@@ -311,8 +314,8 @@ const Ecommerce = () => {
               <p className="font-semibold text-lg">React 18 coming soon!</p>
               <p className="text-gray-400 ">By Ogunniyi Anuoluwapo</p>
               <p className="mt-8 text-sm text-gray-400">
-                This will be the small description for the news you have shown
-                here. There could be some great info.
+                Sapa new edition.
+                Coming soon!!!
               </p>
               <div className="mt-3">
                 <Button
